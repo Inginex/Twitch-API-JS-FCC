@@ -1,0 +1,131 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+     * {
+			margin: 0;
+			padding: 0;
+			border: 0;
+			box-sizing: border-box;
+			font-family: 'Poiret One', cursive;
+		}
+    html, body {
+			height: 100%;
+      background: #65479e;
+		}
+		ul, li {
+			list-style-type: none;
+		}
+   .ui-menu-item {
+      width: 250px;
+      padding: 10px;
+      text-align: center;
+      background-color: #781eae;
+      color: white;
+     
+   }
+   .ui-menu-item:hover {
+      background-color: white;
+      color: #781eae;
+    }
+		#users {
+			position: relative;
+			background-color: #65479e;
+			width: 750px;
+			height: 500px;
+			margin: 0 auto;
+		}
+		.user {
+			width: 100%;
+			height: 100px;
+			background-color: #8170a2;
+			padding: 2%;
+		}
+		.user:first-child {
+			border-top: none;
+		}
+    .user:last-child {
+      margin-bottom: 10%;
+    }
+    .user:hover {
+			background-color: #6b5a8d;
+		}
+    .user:hover img{
+			-webkit-box-shadow: -1px 6px 5px -3px rgba(0,0,0,0.75);
+      -moz-box-shadow: -1px 6px 5px -3px rgba(0,0,0,0.75);
+      box-shadow: -1px 6px 5px -3px rgba(0,0,0,0.75);
+		}
+		.user img {
+			width: 60px;
+		}
+		.user a {
+			position: relative;
+			left: 30px;
+    	top: -20px;
+    	color: black;
+      font-size: 17px;
+      font-weight: bold;
+    	text-decoration: none;
+		}
+		#status {
+			color: white;
+			width: 500px;
+			left: 150px;
+    	top: -45px;
+    	text-align: center;
+    	position: relative;
+		}
+		.tabs{
+			float: right;
+			position: relative;
+			top: -20px;
+			left: -20px;
+		}
+		.tabs button {
+			width: 65px;
+			background-color: white;
+      border-radius: 2px;
+      color: #65479e;
+		}
+    .tabs button:hover {
+      background-color: #65479e;
+      color: white;
+    }
+    .tabs button:focus {
+      background-color: #65479e;
+      color: white;
+    }
+		#state {
+			width: 13px !important;
+      position: relative;
+      display: flex;
+      box-shadow: none !important;
+      top: -20px;
+      left: 3px;
+		}
+		#first {
+			height: 90px;
+		}
+		#first img {
+			width: 100px;
+			padding-left: 25px;
+			padding-top: 10px;
+		}
+		.search {
+			width: 400px;
+			height: 40px;
+			padding-left: 15px;
+			padding-top: 5px;
+		}
+		.search input {
+			width: 100%;
+			height: 100%;
+			padding-left: 15px;
+			background-color: white;
+		}
+    .ui-helper-hidden-accessible {
+      display: none;
+    }
+#info {
+  width: 600px;
+  position: relative;
+  left: 80px;
+  top: -35px;
+}
